@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color:rgb(30, 56, 95);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 10px;
+    border: 1px;
+    margin: 1.5em;
+    background: rgba(174, 176, 179, 0.3);
+    color: rgb(8, 30, 59);
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 2em;
+    color: rgb(8, 30, 59);
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(12, 31, 66);
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    font-size: medium;
+}
+
+nav ul li a:hover {
+    border-radius: 5px;
+}
+
+section#sem_1 {
+    margin: 55px 100px;
+    padding: 55px 100px;
+    background-color: rgb(174, 176, 179);
+    border-radius: 6px;
+}
+
+
+h2, h3 {
+    color: rgb(5, 33, 70);
+}
+
+dt {
+    color: color-mix(in hsl decreasing hue, rgb(118, 125, 187) 45%, rgb(10, 34, 71) 55%);
+    font: size 110%;
+    font-style: bold;
+}
+    p, dd {
+        text-align: left;
+        text-emphasis-color: rgb(16, 47, 88);
+        }
+
+ol {
+    padding: 1em;
+    text-align: left;
+}
+
+li {
+    font-size: 85%;
+}
